@@ -22,7 +22,6 @@ a{
 }
 
 #name{
-    margin-top: 70px;
     text-align: center;
     font-size: x-large;
     font-family: 'Pangolin', cursive;
@@ -110,9 +109,11 @@ a{
     text-align: center;
     margin-top: 110px;
     position: relative;
-    top: 50%;
+    top: 40%;
+    font-size: 20px;
     word-spacing: 2px;
     line-height: 30px;
+
 
 }
 
@@ -297,6 +298,8 @@ b1{
 
 .intro_box{
 
+    display: flex;
+    flex-direction: column;
     border-radius: 20px 20px 1px 1px;
     background-color: rgb(115, 176, 211);
     width: 100%;
@@ -314,9 +317,8 @@ b1{
     margin: 50px;
     border-radius: 20px;
     width: 400px;
-    height: 270px;
+    height: 300px;
     display: flex;
-    background-color: plum; 
     box-shadow: rgb(216, 212, 212) 11px 2px 2px;
 
 
@@ -328,10 +330,9 @@ b1{
         border-radius: 20px;
        /*  border: gray 3px; */
         width: 400px;
-        height: 270px;
+        height: 300px;
         display: flex;
         /* border: gray 1px solid; */
-        background-color: cornflowerblue; 
         box-shadow: rgb(216, 212, 212) 11px 2px 2px;
     
     
@@ -459,8 +460,55 @@ b1{
 h2{
     font-size: x-large;
     text-align: center;
-    padding-top: 70px;
-    font-size: 30px;
+/*     padding-top: 70px; */
+    font-size: 20px;
+    position: absolute;
+    bottom: -570px;
+    margin-left: 160px;
+    margin-top: 700px;
 
 }
 
+.intro_box img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.header_text{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+}
+
+header ul > li{
+    list-style: none;
+    font-size: 30px;
+    color:  white;
+}
+.name{
+
+    font-family : 'Open Sans Condensed', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: x-large;
+    
+}
+
+.name > li{
+    list-style: none;
+}
